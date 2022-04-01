@@ -201,3 +201,15 @@ body {
   background-color: transparent;
   color: #22bedd;
 }
+.section-title {
+  text-align: center;
+}
+.section-title h1 {
+  color: #22bedd;
+  font-size: 40px;
+  margin: 50px 0;
+  border-left: 3px solid #22bedd;
+  border-right: 3px solid #22bedd;
+  display: inline-block;
+  padding: 0 10px;
+}
