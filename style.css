@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.banner-left {
+  flex: 1;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.banner-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-right img {
+  border: 4px solid #22bedd;
+}
+.banner-title {
+  font-size: 60px;
+  white-space: nowrap;
+  position: relative;
+  color: transparent;
+}
+.banner-title::before {
+  content: "Habiba's Website";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #22bedd;
+  animation: typing 3s linear infinite;
+}
+@keyframes typing {
+  0% {
+    content: "H|";
+  }
+
+  4% {
+    content: "Ha|";
+  }
+
+  8% {
+    content: "Hab|";
+  }
+
+  12% {
+    content: "Habi|";
+  }
+
+  16% {
+    content: "Habib|";
+  }
+
+  20% {
+    content: "Habiba|";
+  }
+
+  24% {
+    content: "Habiba'|";
+  }
+
+  28% {
+    content: "Habiba's|";
+  }
+
+  32% {
+    content: "Habiba's |";
+  }
+
+  36% {
+    content: "Habiba's W|";
+  }
+
+  40% {
+    content: "Habiba's We|";
+  }
+
+  44% {
+    content: "Habiba's Web|";
+  }
+
+  48% {
+    content: "Habiba's Webs|";
+  }
+
+  52% {
+    content: "Habiba's Websi|";
+  }
+
+  56% {
+    content: "Habiba's Websit|";
+  }
+
+  60% {
+    content: "Habiba's Website|";
+  }
+
+  64%,
+  83% {
+    content: "Habiba's Website|";
+  }
+
+  84% {
+    content: "Habiba's Websit|";
+  }
+
+  85% {
+    content: "Habiba's Websi|";
+  }
+
+  86% {
+    content: "Habiba's Webs|";
+  }
+
+  87% {
+    content: "Habiba's Web|";
+  }
+
+  88% {
+    content: "Habiba's We|";
+  }
+
+  89% {
+    content: "Habiba's W|";
+  }
+
+  90% {
+    content: "Habiba's |";
+  }
+
+  91% {
+    content: "Habiba's|";
+  }
+
+  92% {
+    content: "Habiba'|";
+  }
+
+  93% {
+    content: "Habiba|";
+  }
+
+  94% {
+    content: "Habib|";
+  }
+
+  95% {
+    content: "Habi|";
+  }
+
+  96% {
+    content: "Hab|";
+  }
+
+  97% {
+    content: "Ha|";
+  }
+
+  98% {
+    content: "H|";
+  }
+
+  99% {
+    content: "|";
+  }
+
+  100% {
+    content: "|";
+  }
+}
+.banner-text {
+  line-height: 2;
+  margin: 20px 0;
+}
+.love-button {
+  outline: 0;
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: #22bedd;
+  color: white;
+  border: 4px solid #22bedd;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.love-button:hover {
+  background-color: transparent;
+  color: #22bedd;
+}
